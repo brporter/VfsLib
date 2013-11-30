@@ -1,0 +1,731 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BryanPorter.Web.VirtualFS.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.CombinedPreferentialData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.#ctor(BryanPorter.Web.VirtualFS.CombinedPreferentialData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.Bind(BryanPorter.Web.VirtualFS.IVFSData)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.ExecuteInOrderOf1FuncOfM0FuncOfM0FileSystemPrecedenceFuncOfM0Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0},System.Func{``0},BryanPorter.Web.VirtualFS.FileSystemPrecedence,System.Func{``0,System.Boolean},``0})">
+            <summary>Sets the shim of CombinedPreferentialData.ExecuteInOrder(Func`1&lt;!!0&gt; phys, Func`1&lt;!!0&gt; virt, FileSystemPrecedence precedence, Func`2&lt;!!0,Boolean&gt; predicate)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.ExecuteInOrderOf1FuncOfM0FuncOfM0FileSystemPrecedenceFuncOfM0M0M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0},System.Func{``0},BryanPorter.Web.VirtualFS.FileSystemPrecedence,System.Func{``0,``0,``0},``0})">
+            <summary>Sets the shim of CombinedPreferentialData.ExecuteInOrder(Func`1&lt;!!0&gt; phys, Func`1&lt;!!0&gt; virt, FileSystemPrecedence precedence, Func`3&lt;!!0,!!0,!!0&gt; processor)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetThingsOf1StringFuncOfIEnumerableOfM0FuncOfIEnumerableOfM0FileSystemPrecedence``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Func{System.Collections.Generic.IEnumerable{``0}},System.Func{System.Collections.Generic.IEnumerable{``0}},BryanPorter.Web.VirtualFS.FileSystemPrecedence,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of CombinedPreferentialData.GetThings(String virtualPath, Func`1&lt;IEnumerable`1&lt;!!0&gt;&gt; phys, Func`1&lt;IEnumerable`1&lt;!!0&gt;&gt; virt, FileSystemPrecedence precedence)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.OrderAssignmentOf1FuncOfM0FuncOfM0FuncOfM0FuncOfM0FileSystemPrecedence``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{System.Func{``0},System.Func{``0},System.Func{``0},System.Func{``0},BryanPorter.Web.VirtualFS.FileSystemPrecedence})">
+            <summary>Sets the shim of CombinedPreferentialData.OrderAssignment(Func`1&lt;!!0&gt; first, Func`1&lt;!!0&gt; second, Func`1&lt;!!0&gt; physical, Func`1&lt;!!0&gt; virt, FileSystemPrecedence precedence)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._GetThingsb__cOf1IEnumerableOfM0IEnumerableOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;GetThings&gt;b__c(IEnumerable`1&lt;!!0&gt; fresult, IEnumerable`1&lt;!!0&gt; sresult)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.ConstructorIVFSDataIVFSDataFileSystemPrecedence">
+            <summary>Sets the shim of CombinedPreferentialData.CombinedPreferentialData(IVFSData virtualData, IVFSData physicalData, FileSystemPrecedence precedence)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.DirectoryExistsString">
+            <summary>Sets the shim of CombinedPreferentialData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.FileExistsString">
+            <summary>Sets the shim of CombinedPreferentialData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetChildrenString">
+            <summary>Sets the shim of CombinedPreferentialData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetDirectoriesString">
+            <summary>Sets the shim of CombinedPreferentialData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetDirectoryString">
+            <summary>Sets the shim of CombinedPreferentialData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetFileContentsString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetFileString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.GetFilesString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.ParentRepositoryGet">
+            <summary>Sets the shim of CombinedPreferentialData.get_ParentRepository()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._DirectoryExistsb__8Boolean">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;DirectoryExists&gt;b__8(Boolean b)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._FileExistsb__2Boolean">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;FileExists&gt;b__2(Boolean b)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._GetDirectoryb__21VirtualFileSystemDirectory">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;GetDirectory&gt;b__21(VirtualFileSystemDirectory result)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._GetFileContentsb__1bByteArray">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;GetFileContents&gt;b__1b(Byte[] result)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData._GetFileb__27VirtualFileSystemFile">
+            <summary>Sets the shim of CombinedPreferentialData.&lt;GetFile&gt;b__27(VirtualFileSystemFile result)</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.DirectoryExistsString">
+            <summary>Sets the shim of CombinedPreferentialData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.FileExistsString">
+            <summary>Sets the shim of CombinedPreferentialData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetChildrenString">
+            <summary>Sets the shim of CombinedPreferentialData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetDirectoriesString">
+            <summary>Sets the shim of CombinedPreferentialData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetDirectoryString">
+            <summary>Sets the shim of CombinedPreferentialData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetFileContentsString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetFileString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.GetFilesString">
+            <summary>Sets the shim of CombinedPreferentialData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimCombinedPreferentialData.AllInstances.ParentRepositoryGet">
+            <summary>Sets the shim of CombinedPreferentialData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.PhysicalData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.#ctor(BryanPorter.Web.VirtualFS.PhysicalData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.Bind(BryanPorter.Web.VirtualFS.IVFSData)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.ConstructorHttpServerUtilityBase">
+            <summary>Sets the shim of PhysicalData.PhysicalData(HttpServerUtilityBase utility)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.ConstructorHttpServerUtilityBaseIVFSData">
+            <summary>Sets the shim of PhysicalData.PhysicalData(HttpServerUtilityBase utility, IVFSData parent)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.DirectoryExistsString">
+            <summary>Sets the shim of PhysicalData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.FileExistsString">
+            <summary>Sets the shim of PhysicalData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetChildrenString">
+            <summary>Sets the shim of PhysicalData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetDirectoriesString">
+            <summary>Sets the shim of PhysicalData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetDirectoryString">
+            <summary>Sets the shim of PhysicalData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetFileContentsString">
+            <summary>Sets the shim of PhysicalData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetFileString">
+            <summary>Sets the shim of PhysicalData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.GetFilesString">
+            <summary>Sets the shim of PhysicalData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.ParentRepositoryGet">
+            <summary>Sets the shim of PhysicalData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.DirectoryExistsString">
+            <summary>Sets the shim of PhysicalData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.FileExistsString">
+            <summary>Sets the shim of PhysicalData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetChildrenString">
+            <summary>Sets the shim of PhysicalData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetDirectoriesString">
+            <summary>Sets the shim of PhysicalData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetDirectoryString">
+            <summary>Sets the shim of PhysicalData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetFileContentsString">
+            <summary>Sets the shim of PhysicalData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetFileString">
+            <summary>Sets the shim of PhysicalData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.GetFilesString">
+            <summary>Sets the shim of PhysicalData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimPhysicalData.AllInstances.ParentRepositoryGet">
+            <summary>Sets the shim of PhysicalData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.VirtualData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.#ctor(BryanPorter.Web.VirtualFS.VirtualData)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.Bind(BryanPorter.Web.VirtualFS.IVFSData)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.ConstructorHttpServerUtilityBase">
+            <summary>Sets the shim of VirtualData.VirtualData(HttpServerUtilityBase utility)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.ConstructorHttpServerUtilityBaseIVFSData">
+            <summary>Sets the shim of VirtualData.VirtualData(HttpServerUtilityBase utility, IVFSData parent)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.DirectoryExistsString">
+            <summary>Sets the shim of VirtualData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.FileExistsString">
+            <summary>Sets the shim of VirtualData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetChildrenString">
+            <summary>Sets the shim of VirtualData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetDirectoriesString">
+            <summary>Sets the shim of VirtualData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetDirectoryString">
+            <summary>Sets the shim of VirtualData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetFileContentsString">
+            <summary>Sets the shim of VirtualData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetFileString">
+            <summary>Sets the shim of VirtualData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.GetFilesString">
+            <summary>Sets the shim of VirtualData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.ParentRepositoryGet">
+            <summary>Sets the shim of VirtualData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.DirectoryExistsString">
+            <summary>Sets the shim of VirtualData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.FileExistsString">
+            <summary>Sets the shim of VirtualData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetChildrenString">
+            <summary>Sets the shim of VirtualData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetDirectoriesString">
+            <summary>Sets the shim of VirtualData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetDirectoryString">
+            <summary>Sets the shim of VirtualData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetFileContentsString">
+            <summary>Sets the shim of VirtualData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetFileString">
+            <summary>Sets the shim of VirtualData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.GetFilesString">
+            <summary>Sets the shim of VirtualData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualData.AllInstances.ParentRepositoryGet">
+            <summary>Sets the shim of VirtualData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.VirtualFileSystem</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.#ctor(BryanPorter.Web.VirtualFS.VirtualFileSystem)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.CombineVirtualPathsStringString">
+            <summary>Sets the shim of VirtualFileSystem.CombineVirtualPaths(String basePath, String relativePath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.ConstructorIVFSDataHttpServerUtilityBase">
+            <summary>Sets the shim of VirtualFileSystem.VirtualFileSystem(IVFSData data, HttpServerUtilityBase serverUtility)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.ConstructorIVFSDataHttpServerUtilityBaseFileSystemPrecedence">
+            <summary>Sets the shim of VirtualFileSystem.VirtualFileSystem(IVFSData data, HttpServerUtilityBase serverUtility, FileSystemPrecedence precendence)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.DirectoryExistsString">
+            <summary>Sets the shim of VirtualFileSystem.DirectoryExists(String virtualDir)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.FileExistsString">
+            <summary>Sets the shim of VirtualFileSystem.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.GetCacheDependencyStringIEnumerableDateTime">
+            <summary>Sets the shim of VirtualFileSystem.GetCacheDependency(String virtualPath, IEnumerable virtualPathDependencies, DateTime utcStart)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.GetCacheKeyString">
+            <summary>Sets the shim of VirtualFileSystem.GetCacheKey(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.GetDirectoryString">
+            <summary>Sets the shim of VirtualFileSystem.GetDirectory(String virtualDir)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.GetFileString">
+            <summary>Sets the shim of VirtualFileSystem.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.PrecedenceGet">
+            <summary>Sets the shim of VirtualFileSystem.get_Precedence()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.PrecedenceSetFileSystemPrecedence">
+            <summary>Sets the shim of VirtualFileSystem.set_Precedence(FileSystemPrecedence value)</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.CombineVirtualPathsStringString">
+            <summary>Sets the shim of VirtualFileSystem.CombineVirtualPaths(String basePath, String relativePath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.DirectoryExistsString">
+            <summary>Sets the shim of VirtualFileSystem.DirectoryExists(String virtualDir)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.FileExistsString">
+            <summary>Sets the shim of VirtualFileSystem.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.GetCacheDependencyStringIEnumerableDateTime">
+            <summary>Sets the shim of VirtualFileSystem.GetCacheDependency(String virtualPath, IEnumerable virtualPathDependencies, DateTime utcStart)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.GetCacheKeyString">
+            <summary>Sets the shim of VirtualFileSystem.GetCacheKey(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.GetDirectoryString">
+            <summary>Sets the shim of VirtualFileSystem.GetDirectory(String virtualDir)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.GetFileString">
+            <summary>Sets the shim of VirtualFileSystem.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.PrecedenceGet">
+            <summary>Sets the shim of VirtualFileSystem.get_Precedence()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystem.AllInstances.PrecedenceSetFileSystemPrecedence">
+            <summary>Sets the shim of VirtualFileSystem.set_Precedence(FileSystemPrecedence value)</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.VirtualFileSystemDirectory</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.#ctor(BryanPorter.Web.VirtualFS.VirtualFileSystemDirectory)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.ChildrenGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Children()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.ConstructorStringIVFSDataHttpServerUtilityBase">
+            <summary>Sets the shim of VirtualFileSystemDirectory.VirtualFileSystemDirectory(String virtualPath, IVFSData data, HttpServerUtilityBase utility)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.DirectoriesGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Directories()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.FilesGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Files()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.AllInstances.ChildrenGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Children()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.AllInstances.DirectoriesGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Directories()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemDirectory.AllInstances.FilesGet">
+            <summary>Sets the shim of VirtualFileSystemDirectory.get_Files()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile">
+            <summary>Shim type of BryanPorter.Web.VirtualFS.VirtualFileSystemFile</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.#ctor(BryanPorter.Web.VirtualFS.VirtualFileSystemFile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.ConstructorStringIVFSDataHttpServerUtilityBase">
+            <summary>Sets the shim of VirtualFileSystemFile.VirtualFileSystemFile(String virtualPath, IVFSData data, HttpServerUtilityBase utility)</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.Open">
+            <summary>Sets the shim of VirtualFileSystemFile.Open()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.ShimVirtualFileSystemFile.AllInstances.Open">
+            <summary>Sets the shim of VirtualFileSystemFile.Open()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.CombinedPreferentialData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData.#ctor(BryanPorter.Web.VirtualFS.IVFSData,BryanPorter.Web.VirtualFS.IVFSData,BryanPorter.Web.VirtualFS.FileSystemPrecedence)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData.InitializeStub">
+            <summary>Initializes a new instance of type StubCombinedPreferentialData</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubCombinedPreferentialData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.IVFSData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.#ctor">
+            <summary>Initializes a new instance of type StubIVFSData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#DirectoryExists(System.String)">
+            <summary>Sets the stub of IVFSData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#FileExists(System.String)">
+            <summary>Sets the stub of IVFSData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetChildren(System.String)">
+            <summary>Sets the stub of IVFSData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetDirectories(System.String)">
+            <summary>Sets the stub of IVFSData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetDirectory(System.String)">
+            <summary>Sets the stub of IVFSData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetFile(System.String)">
+            <summary>Sets the stub of IVFSData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetFileContents(System.String)">
+            <summary>Sets the stub of IVFSData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#GetFiles(System.String)">
+            <summary>Sets the stub of IVFSData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.DirectoryExistsString">
+            <summary>Sets the stub of IVFSData.DirectoryExists(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.FileExistsString">
+            <summary>Sets the stub of IVFSData.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetChildrenString">
+            <summary>Sets the stub of IVFSData.GetChildren(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetDirectoriesString">
+            <summary>Sets the stub of IVFSData.GetDirectories(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetDirectoryString">
+            <summary>Sets the stub of IVFSData.GetDirectory(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetFileContentsString">
+            <summary>Sets the stub of IVFSData.GetFileContents(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetFileString">
+            <summary>Sets the stub of IVFSData.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.GetFilesString">
+            <summary>Sets the stub of IVFSData.GetFiles(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.ParentRepositoryGet">
+            <summary>Sets the stub of IVFSData.get_ParentRepository()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubIVFSData.bpwvfs::BryanPorter#Web#VirtualFS#IVFSData#ParentRepository">
+            <summary>Sets the stub of IVFSData.get_ParentRepository()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.PhysicalData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.#ctor(System.Web.HttpServerUtilityBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.#ctor(System.Web.HttpServerUtilityBase,BryanPorter.Web.VirtualFS.IVFSData)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.InitializeStub">
+            <summary>Initializes a new instance of type StubPhysicalData</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubPhysicalData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.VirtualData</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.#ctor(System.Web.HttpServerUtilityBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.#ctor(System.Web.HttpServerUtilityBase,BryanPorter.Web.VirtualFS.IVFSData)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.InitializeStub">
+            <summary>Initializes a new instance of type StubVirtualData</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualData.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.VirtualFileSystem</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.#ctor(BryanPorter.Web.VirtualFS.IVFSData,System.Web.HttpServerUtilityBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.#ctor(BryanPorter.Web.VirtualFS.IVFSData,System.Web.HttpServerUtilityBase,BryanPorter.Web.VirtualFS.FileSystemPrecedence)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.CombineVirtualPaths(System.String,System.String)">
+            <summary>Sets the stub of VirtualFileSystem.CombineVirtualPaths(String basePath, String relativePath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.CombineVirtualPathsStringString">
+            <summary>Sets the stub of VirtualFileSystem.CombineVirtualPaths(String basePath, String relativePath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.DirectoryExists(System.String)">
+            <summary>Sets the stub of VirtualFileSystem.DirectoryExists(String virtualDir)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.DirectoryExistsString">
+            <summary>Sets the stub of VirtualFileSystem.DirectoryExists(String virtualDir)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.FileExists(System.String)">
+            <summary>Sets the stub of VirtualFileSystem.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.FileExistsString">
+            <summary>Sets the stub of VirtualFileSystem.FileExists(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetCacheKey(System.String)">
+            <summary>Sets the stub of VirtualFileSystem.GetCacheKey(String virtualPath)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetCacheKeyString">
+            <summary>Sets the stub of VirtualFileSystem.GetCacheKey(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetDirectory(System.String)">
+            <summary>Sets the stub of VirtualFileSystem.GetDirectory(String virtualDir)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetDirectoryString">
+            <summary>Sets the stub of VirtualFileSystem.GetDirectory(String virtualDir)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetFile(System.String)">
+            <summary>Sets the stub of VirtualFileSystem.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetFileHash(System.String,System.Collections.IEnumerable)">
+            <summary>Sets the stub of VirtualPathProvider.GetFileHash(String virtualPath, IEnumerable virtualPathDependencies)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetFileHashStringIEnumerable">
+            <summary>Sets the stub of VirtualPathProvider.GetFileHash(String virtualPath, IEnumerable virtualPathDependencies)</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.GetFileString">
+            <summary>Sets the stub of VirtualFileSystem.GetFile(String virtualPath)</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.Initialize">
+            <summary>Sets the stub of VirtualPathProvider.Initialize()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.Initialize01">
+            <summary>Sets the stub of VirtualPathProvider.Initialize()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.InitializeLifetimeService">
+            <summary>Sets the stub of VirtualPathProvider.InitializeLifetimeService()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.InitializeLifetimeService01">
+            <summary>Sets the stub of VirtualPathProvider.InitializeLifetimeService()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.InitializeStub">
+            <summary>Initializes a new instance of type StubVirtualFileSystem</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystem.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.VirtualFileSystemDirectory</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.#ctor(System.String,BryanPorter.Web.VirtualFS.IVFSData,System.Web.HttpServerUtilityBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.ChildrenGet">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Children()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.DirectoriesGet">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Directories()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.FilesGet">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Files()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.InitializeLifetimeService">
+            <summary>Sets the stub of VirtualFileBase.InitializeLifetimeService()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.InitializeLifetimeService01">
+            <summary>Sets the stub of VirtualFileBase.InitializeLifetimeService()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.InitializeStub">
+            <summary>Initializes a new instance of type StubVirtualFileSystemDirectory</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.IsDirectoryGet">
+            <summary>Sets the stub of VirtualDirectory.get_IsDirectory()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.NameGet">
+            <summary>Sets the stub of VirtualFileBase.get_Name()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.Children">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Children()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.Directories">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Directories()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.Files">
+            <summary>Sets the stub of VirtualFileSystemDirectory.get_Files()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.IsDirectory">
+            <summary>Sets the stub of VirtualDirectory.get_IsDirectory()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemDirectory.Name">
+            <summary>Sets the stub of VirtualFileBase.get_Name()</summary>
+        </member>
+        <member name="T:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile">
+            <summary>Stub type of BryanPorter.Web.VirtualFS.VirtualFileSystemFile</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.#ctor(System.String,BryanPorter.Web.VirtualFS.IVFSData,System.Web.HttpServerUtilityBase)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.InitializeLifetimeService">
+            <summary>Sets the stub of VirtualFileBase.InitializeLifetimeService()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.InitializeLifetimeService01">
+            <summary>Sets the stub of VirtualFileBase.InitializeLifetimeService()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.InitializeStub">
+            <summary>Initializes a new instance of type StubVirtualFileSystemFile</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.IsDirectoryGet">
+            <summary>Sets the stub of VirtualFile.get_IsDirectory()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.NameGet">
+            <summary>Sets the stub of VirtualFileBase.get_Name()</summary>
+        </member>
+        <member name="M:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.Open">
+            <summary>Sets the stub of VirtualFileSystemFile.Open()</summary>
+        </member>
+        <member name="F:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.Open01">
+            <summary>Sets the stub of VirtualFileSystemFile.Open()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.IsDirectory">
+            <summary>Sets the stub of VirtualFile.get_IsDirectory()</summary>
+        </member>
+        <member name="P:BryanPorter.Web.VirtualFS.Fakes.StubVirtualFileSystemFile.Name">
+            <summary>Sets the stub of VirtualFileBase.get_Name()</summary>
+        </member>
+    </members>
+</doc>

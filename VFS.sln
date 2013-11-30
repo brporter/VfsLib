@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VfsLib", "VfsLib\VfsLib.csproj", "{F71D150E-4DE7-43E9-823D-2C3034C251A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VfsLib.Tests", "VfsLib.Tests\VfsLib.Tests.csproj", "{04F280FD-6707-4F0B-85FD-B78DAA5F34FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{C6FB53B5-B4FA-494B-980C-B7A231FC39FC}"
+	ProjectSection(SolutionItems) = preProject
+		SQL\Store.sql = SQL\Store.sql
+		SQL\StoreWithTestData.sql = SQL\StoreWithTestData.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04F280FD-6707-4F0B-85FD-B78DAA5F34FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F280FD-6707-4F0B-85FD-B78DAA5F34FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F280FD-6707-4F0B-85FD-B78DAA5F34FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F280FD-6707-4F0B-85FD-B78DAA5F34FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71D150E-4DE7-43E9-823D-2C3034C251A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71D150E-4DE7-43E9-823D-2C3034C251A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71D150E-4DE7-43E9-823D-2C3034C251A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71D150E-4DE7-43E9-823D-2C3034C251A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
